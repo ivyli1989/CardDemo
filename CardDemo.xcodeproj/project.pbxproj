@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		22B026261BCF374800CDD45E /* Card.m in Sources */ = {isa = PBXBuildFile; fileRef = 22B026251BCF374800CDD45E /* Card.m */; };
 		EC0D44361BCEB7DD004D704C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EC0D44351BCEB7DD004D704C /* main.m */; };
 		EC0D44391BCEB7DD004D704C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EC0D44381BCEB7DD004D704C /* AppDelegate.m */; };
 		EC0D443C1BCEB7DD004D704C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EC0D443B1BCEB7DD004D704C /* ViewController.m */; };
@@ -27,6 +28,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		22B026251BCF374800CDD45E /* Card.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Card.m; path = ../Card.m; sourceTree = "<group>"; };
+		22B026271BCF376B00CDD45E /* Card.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = Card.h; path = ../Card.h; sourceTree = "<group>"; };
 		EC0D44301BCEB7DD004D704C /* CardDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CardDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EC0D44341BCEB7DD004D704C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EC0D44351BCEB7DD004D704C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -81,6 +84,8 @@
 		EC0D44321BCEB7DD004D704C /* CardDemo */ = {
 			isa = PBXGroup;
 			children = (
+				22B026271BCF376B00CDD45E /* Card.h */,
+				22B026251BCF374800CDD45E /* Card.m */,
 				EC0D44371BCEB7DD004D704C /* AppDelegate.h */,
 				EC0D44381BCEB7DD004D704C /* AppDelegate.m */,
 				EC0D443A1BCEB7DD004D704C /* ViewController.h */,
@@ -222,6 +227,7 @@
 				EC0D443C1BCEB7DD004D704C /* ViewController.m in Sources */,
 				EC0D44391BCEB7DD004D704C /* AppDelegate.m in Sources */,
 				EC0D44361BCEB7DD004D704C /* main.m in Sources */,
+				22B026261BCF374800CDD45E /* Card.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -418,6 +424,7 @@
 				EC0D44551BCEB7DD004D704C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		EC0D44561BCEB7DD004D704C /* Build configuration list for PBXNativeTarget "CardDemoTests" */ = {
 			isa = XCConfigurationList;
@@ -426,6 +433,7 @@
 				EC0D44581BCEB7DD004D704C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
